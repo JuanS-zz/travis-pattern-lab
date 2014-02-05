@@ -1,3 +1,8 @@
+Status
+==========
+[![Build Status](https://travis-ci.org/JuanS/travis-pattern-lab.png?branch=master)](https://travis-ci.org/JuanS/travis-pattern-lab.png?branch=master)
+
+
 ## About the PHP Version of Pattern Lab
 
 The PHP version of Pattern Lab is, at its core, a static site generator. It combines platform-agnostic assets, like the [Mustache](http://mustache.github.io/)-based patterns and the JavaScript-based viewer, with a PHP-based "builder" that transforms and dynamically builds the Pattern Lab site. By making it a static site generator, the PHP version of Pattern Lab strongly separates patterns, data, and presentation from build logic. The PHP version should be seen as a reference for other developers to improve upon as they build their own Pattern Lab Builders in their language of choice.
