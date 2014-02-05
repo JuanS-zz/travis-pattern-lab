@@ -2,7 +2,7 @@ language: php
 php:
   - 5.4
 before_install:
-  php "/home/travis/.phpenv/versions/5.4.23/bin/composer.phar self-update"
+  php composer self-update
 script:
   cd builder
   php "builder.php" -gc
