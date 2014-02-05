@@ -1,5 +1,6 @@
 language: php
 php:
-  - 5.3
+  - 5.4
 script:
-  php "./builder/builder.php" -g
+  cd builder
+  php "builder.php" -g
